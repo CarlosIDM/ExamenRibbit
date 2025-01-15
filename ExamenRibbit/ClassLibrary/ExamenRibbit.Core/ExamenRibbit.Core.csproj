@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenRibbit.DataAccess\ExamenRibbit.DataAccess.csproj" />
+    <ProjectReference Include="..\ExamenRibbit.Entities\ExamenRibbit.Entities.csproj" />
+    <ProjectReference Include="..\ExamenRibbit.Models\ExamenRibbit.Models.csproj" />
+    <ProjectReference Include="..\ExamenRibbit.Repository\ExamenRibbit.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

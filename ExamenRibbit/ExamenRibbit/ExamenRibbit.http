@@ -1,0 +1,6 @@
+@ExamenRibbit_HostAddress = http://localhost:5231
+
+GET {{ExamenRibbit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
